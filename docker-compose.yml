@@ -6,7 +6,7 @@ services:
       - "8080:80"
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-      - ./public:/week4/public
+      - ./public:/latrobe/public
     depends_on:
       - php
     restart: always
@@ -15,7 +15,7 @@ services:
       context: .
       dockerfile: PHP.Dockerfile
     volumes:
-      - ./public:/week4/public
+      - ./public:/latrobe/public
     depends_on:
       - mysql
     restart: always
@@ -23,13 +23,13 @@ services:
     image: mariadb:latest
     environment:
       MYSQL_ROOT_PASSWORD: 'password'
-      MYSQL_DATABASE: 'week4'
+      MYSQL_DATABASE: 'latrobe'
       MYSQL_USER: 'latrobe'
       MYSQL_PASSWORD: 'password'
     volumes:
-      - week4:/var/lib/mysql
+      - latrobe:/var/lib/mysql
     ports:
       - "3306:3306"
     restart: always
 volumes:
-  week4: {}
+  latrobe: {}

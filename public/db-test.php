@@ -19,7 +19,7 @@
           <?php
 
           $host = 'mysql';
-          $db   = 'week4';
+          $db   = 'latrobe';
           $user = 'latrobe';
           $pass = 'password';
           $port = "3306";
