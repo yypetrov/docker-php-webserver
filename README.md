@@ -41,12 +41,30 @@ This message shows that your installation appears to be working correctly.
 ## STEP 2: Download Docker image configuration files
 Download Docker image configuration files from this repository.
 
-Use a git clone:
+1. Use a git clone:
 ```
 git clone git@github.com:yypetrov/docker-php-webserver.git
 ```
 
-Or download it manually from the github page of the repository:
+2. Or download it manually from the github page of the repository:
+Click the URL below:
 [Docker PHP Webserver](https://github.com/yypetrov/docker-php-webserver)
+On the page click **Code** button, then **Download ZIP**
+Unzip files in the folder.
+
+## STEP 3: Prepare, compose and run custom Docker image:
+
+### Open terminal and go to the folder
+Open terminal and go to the folder where you put files from this repository.
+It should looks something like that:
+```
+    682 Mar 30 17:51 docker-compose.yml
+    367 Mar 27 17:11 nginx.conf
+ 145388 Mar 30 18:49 online-shop.sql
+    872 Mar 27 16:44 PHP.Dockerfile
+   4096 Apr  3 19:24 public
+     90 Apr  3 10:12 README.md
+```
+
 
 
