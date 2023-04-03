@@ -27,7 +27,6 @@ RUN docker-php-ext-configure gd \
     --with-webp
 
 # RUN pecl install xdebug && docker-php-ext-enable xdebug
-# RUN pecl install imagick-3.7.0 && docker-php-ext-enable imagick
 
 RUN set -eux; \
 docker-php-ext-enable opcache; \
