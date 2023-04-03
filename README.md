@@ -1,6 +1,6 @@
 # Configuration files to compose Nginx, PHP, MySQL in one container.
 
-## Installing Docker on your system
+## STEP 1: Installing Docker on your system
 Docker is a platform for developing, shipping, and running applications using container technology. In this guide, we'll walk you through the steps to install Docker on your system.
 
 ### Prerequisites
@@ -37,3 +37,16 @@ This command will download a small Docker image and run it in a container. If th
 Hello from Docker!
 ```
 This message shows that your installation appears to be working correctly.
+
+## STEP 2: Download Docker image configuration files
+Download Docker image configuration files from this repository.
+
+Use a git clone:
+```
+git clone git@github.com:yypetrov/docker-php-webserver.git
+```
+
+Or download it manually from the github page of the repository:
+[Docker PHP Webserver](https://github.com/yypetrov/docker-php-webserver)
+
+
