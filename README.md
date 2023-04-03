@@ -66,5 +66,10 @@ It should looks something like that:
      90 Apr  3 10:12 README.md
 ```
 
+### Compose a custom Docker image
+In the terminal execute
+```
+docker compose up
+```
 
 
