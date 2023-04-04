@@ -1,7 +1,7 @@
 # Docker webserver with Nginx, PHP and MySQL.
 
 ## STEP 1: Install and run Docker on your system
-Docker is a platform for developing, shipping, and running applications using container technology. In this guide, we'll walk you through the steps to install Docker on your system.
+Docker is a platform for developing, shipping, and running applications using container technology. I'll walk you through the steps to install Docker on your system.
 
 ### 1.1. Prerequisites
 Before you begin, make sure you have the following prerequisites:
