@@ -67,7 +67,8 @@ It should looks something like that:
 ```
 
 ### Compose a custom Docker image
-In the terminal execute
+In the terminal execute next command:
+> For Mac OS *Docker Desktop* must be executed and run before that.
 ```
 docker compose up
 ```
