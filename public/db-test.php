@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>ITF: PHP</title>
-    <link rel="stylesheet" href="styles.css">
   </head>
 <body class="body">
-	<header>
-		<?php include "header.php"; ?>
+     <header>
+		<ol>
+			<li><a href="./index.php"><h3>PHP info</h3></a></li>
+			<li><a href="./db-test.php"><h3>DB info</h3></a></li>
+		<ol>
 	</header>
-
 	<main>
-		<h2>Database</h2>
+		<h3>Database</h3>
           <p>
-          Connect to MySQL on docker.
-          mysql -h mysql -P 3306 --protocol=tcp -u latrobe -p
+               Connect to MySQL over MySQL client: mysql -h mysql -P 3306 --protocol=tcp -u latrobe -p
+          </p>
+          <p>
+               You should see database version below:
           </p>
           <?php
 
@@ -37,7 +40,7 @@
           $query = $pdo->query('SHOW VARIABLES like "version"');
           $result = $query->fetch();
 
-          echo "Database version: " . $result['Value'];
+          echo "<b>Database version: " . $result['Value']."</b>";
           ?>
 	</main>
 
