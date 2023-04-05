@@ -71,7 +71,7 @@ In the terminal execute next command:
 docker compose up
 ```
 ### 3.2. Add the host name
-Add `latrobe.local` into 
+Add `127.0.0.1 latrobe.local` line into file `/etc/hosts`:
 ```
 sudo vim /etc/hosts
 ```
