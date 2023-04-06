@@ -25,7 +25,7 @@ Docker version 20.10.7, build f0df350
 Congratulations! You have successfully installed Docker on your system.
 ```
 
-### 1.3. Run Docker
+### 1.3. Run Docker `Hello World!` container.
 To start using Docker, you can run the following command in a terminal or command prompt:
 
 ```
