@@ -86,3 +86,5 @@ You should see information page about your PHP server.
 Files in the *public* directory can be changed any time 
 and changes would be presented in your browser after page refresh *CTRL-R*
 
+Note:
+lsblk -o NAME,PARTTYPE,MOUNTPOINT | grep -i "C12A7328-F81F-11D2-BA4B-00A0C93EC93B"
